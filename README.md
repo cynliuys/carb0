@@ -1,4 +1,4 @@
-# HTTP Endpoint Example App
+# Convex HTTP Endpoint App
 
 This example demonstrates how to use Convex
 [HTTP endpoints](https://docs.convex.dev/using/http-endpoints).
@@ -10,6 +10,13 @@ To run the web app:
 ```
 npm install
 npm run dev
+```
+
+To run the web app on production:
+
+```
+npm install
+npm run deploy
 ```
 
 To call the endpoints (e.g. using `curl`):
