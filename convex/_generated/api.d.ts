@@ -13,17 +13,14 @@ import type { ApiFromModules } from "convex/api";
 import type * as getItemById from "../getItemById";
 import type * as getItemsByType from "../getItemsByType";
 import type * as getItemsByTypeSort from "../getItemsByTypeSort";
-import type * as getMessagesByAuthor from "../getMessagesByAuthor";
 import type * as getPurchaseByUserId from "../getPurchaseByUserId";
 import type * as http from "../http";
 import type * as insertItem from "../insertItem";
 import type * as insertPurchase from "../insertPurchase";
-import type * as listMessages from "../listMessages";
 import type * as postItem from "../postItem";
 import type * as postPurchase from "../postPurchase";
 import type * as queryItem from "../queryItem";
 import type * as queryPurchase from "../queryPurchase";
-import type * as sendMessage from "../sendMessage";
 
 /**
  * A type describing your app's public Convex API.
@@ -38,15 +35,12 @@ export type API = ApiFromModules<{
   getItemById: typeof getItemById;
   getItemsByType: typeof getItemsByType;
   getItemsByTypeSort: typeof getItemsByTypeSort;
-  getMessagesByAuthor: typeof getMessagesByAuthor;
   getPurchaseByUserId: typeof getPurchaseByUserId;
   http: typeof http;
   insertItem: typeof insertItem;
   insertPurchase: typeof insertPurchase;
-  listMessages: typeof listMessages;
   postItem: typeof postItem;
   postPurchase: typeof postPurchase;
   queryItem: typeof queryItem;
   queryPurchase: typeof queryPurchase;
-  sendMessage: typeof sendMessage;
 }>;

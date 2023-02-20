@@ -12,6 +12,13 @@ npm install
 npm run dev
 ```
 
+To deploy it to production:
+
+```
+npx convex deploy
+
+```
+
 To call the endpoints (e.g. using `curl`):
 
 ```
