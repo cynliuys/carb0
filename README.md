@@ -1,4 +1,4 @@
-# HTTP Endpoint Example App
+# Convex HTTP Endpoint App
 
 This example demonstrates how to use Convex
 [HTTP endpoints](https://docs.convex.dev/using/http-endpoints).
@@ -16,7 +16,6 @@ To deploy it to production:
 
 ```
 npx convex deploy
-
 ```
 
 To call the endpoints (e.g. using `curl`):
